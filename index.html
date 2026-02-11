@@ -34,7 +34,15 @@
         </div>
       </nav>
       <div class="row">
-        <div class="col-md-2"></div>
+        <aside class="col-md-2">
+          <h6>Keresési feltételek</h6>
+
+          <p>A termék neve:</p>
+          <input type="text" class="form-control" />
+
+          <p class="mt-3">Szűrés ár szerint:</p>
+          <input type="range" class="form-range" id="customRange" />
+        </aside>
         <article class="col-md-7">
           <div class="row">
               <div class="card col-md-4">
@@ -155,13 +163,16 @@
         </article>
         <aside class="col-md-3">
           <h5>Kapcsolódó cikkek 1</h5>
-          <div class="card">
+          <div class="card p-1">
+            <div class="card-header">
+              <p>1. Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
             <div class="card-body">
-              <ol>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Modi deleniti, molestias saepe dolorem.</li>
-                <li>Aspernatur eos vero distinctio?</li>
-              </ol>
+              <p>2. Modi deleniti, molestias saepe dolorem.</p>
+            </p>
+            </div>
+            <div class="card-footer">
+              <p>3. Aspernatur eos vero distinctio?</p>
             </div>
           </div>
 
