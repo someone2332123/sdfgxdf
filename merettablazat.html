@@ -1,135 +1,136 @@
 <!doctype html>
 <html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Férfi póló mérettáblázat a webáruházunkban."
+    />
+    <meta name="keywords" content="mérettáblázat, webáruház, férfi póló" />
 
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <title>Webáruház – Mérettáblázat</title>
-  <style>
-.slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 6px;
-  background: #d3d3d3;
-}
+    <title>Tóth Dániel István</title>
+  </head>
 
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 16px;
-  height: 16px;
-  background: #0d6efd; /* kék gömb */
-  border-radius: 50%;
-  cursor: pointer;
-}
+  <body>
+    <header class="container-fluid mt-3">
+      <h1>Webáruház</h1>
+    </header>
 
-.slider::-moz-range-thumb {
-  width: 16px;
-  height: 16px;
-  background: #0d6efd;
-  border-radius: 50%;
-  cursor: pointer;
-}
-</style>
-
-</head>
-
-<body>
-
-<!-- FEJLÉC -->
-<header class="container-fluid mt-3">
-  <h1>Webáruház</h1>
-</header>
-
-<!-- NAV -->
-<nav class="navbar navbar-expand-sm bg-light mt-2">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Kezdőlap</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Galéria</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="merettablazat.html">Mérettáblázat</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- TARTALOM -->
-<article class="container-fluid mt-4">
-  <div class="row">
-
-    <!-- BAL OLDAL -->
-    <aside class="col-md-2">
-      <h6>Keresési feltételek</h6>
-
-      <p>A termék neve:</p>
-      <input type="text" class="form-control">
-
-      <p class="mt-3">Szűrés ár szerint:</p>
-      <input type="range" class="slider">
-    </aside>
-
-    <!-- KÖZÉP -->
-    <section class="col-md-7">
-      <h4>Férfi Póló Mérettáblázat</h4>
-      <p>
-        Az adatok centiméterben érthetőek. A mérettáblázat hibahatára +/- 2cm.
-      </p>
-
-      <table class="table">
-        <tr>
-          <th>Méret</th>
-          <th>Szélesség</th>
-          <th>Hossz</th>
-        </tr>
-        <tr><td>S</td><td>50 cm</td><td>69 cm</td></tr>
-        <tr><td>M</td><td>53 cm</td><td>72 cm</td></tr>
-        <tr><td>L</td><td>56 cm</td><td>74 cm</td></tr>
-        <tr><td>XL</td><td>58 cm</td><td>76 cm</td></tr>
-        <tr><td>2XL</td><td>62 cm</td><td>78 cm</td></tr>
-        <tr><td>3XL</td><td>64 cm</td><td>80 cm</td></tr>
-        <tr><td>4XL</td><td>68 cm</td><td>84 cm</td></tr>
-        <tr><td>5XL</td><td>72 cm</td><td>88 cm</td></tr>
-      </table>
-    </section>
-
-    <!-- JOBB OLDAL -->
-    <aside class="col-md-3">
-      <h5>Kapcsolódó cikkek 1</h5>
-
-      <div class="card">
-        <div class="card-body">
-          <ol>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Modi deleniti, molestias saepe dolorem.</li>
-            <li>Aspernatur eos vero distinctio?</li>
-          </ol>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-light mt-2">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galéria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="merettablazat.html">Mérettáblázat</a>
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <h5 class="mt-4">Kapcsolódó cikkek 1</h5>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-        nemo odio veniam beatae dolor. Modi deleniti, molestias saepe dolorem.
-      </p>
-    </aside>
+    <article class="container-fluid mt-4">
+      <div class="row">
+        <aside class="col-md-2">
+          <h6>Keresési feltételek</h6>
 
-  </div>
-</article>
+          <p>A termék neve:</p>
+          <input type="text" class="form-control" />
 
-<!-- LÁBLÉC -->
-<footer class="container-fluid text-center mt-5">
-  <p>Tóth Dániel István</p>
-</footer>
+          <p class="mt-3">Szűrés ár szerint:</p>
+          <input type="range" class="form-range" id="customRange" />
+        </aside>
+        <section class="col-md-7">
+          <h4>Férfi Póló Mérettáblázat</h4>
+          <p>
+            Az adatok centiméterben érthetőek. A mérettáblázat hibahatára +/-
+            2cm.
+          </p>
 
-</body>
+          <table class="table">
+            <tr>
+              <th>Méret</th>
+              <th>Szélesség</th>
+              <th>Hossz</th>
+            </tr>
+            <tr>
+              <td>S</td>
+              <td>50 cm</td>
+              <td>69 cm</td>
+            </tr>
+            <tr>
+              <td>M</td>
+              <td>53 cm</td>
+              <td>72 cm</td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td>56 cm</td>
+              <td>74 cm</td>
+            </tr>
+            <tr>
+              <td>XL</td>
+              <td>58 cm</td>
+              <td>76 cm</td>
+            </tr>
+            <tr>
+              <td>2XL</td>
+              <td>62 cm</td>
+              <td>78 cm</td>
+            </tr>
+            <tr>
+              <td>3XL</td>
+              <td>64 cm</td>
+              <td>80 cm</td>
+            </tr>
+            <tr>
+              <td>4XL</td>
+              <td>68 cm</td>
+              <td>84 cm</td>
+            </tr>
+            <tr>
+              <td>5XL</td>
+              <td>72 cm</td>
+              <td>88 cm</td>
+            </tr>
+          </table>
+        </section>
+
+        <aside class="col-md-3">
+          <h5>Kapcsolódó cikkek 1</h5>
+
+          <div class="card">
+            <div class="card-body">
+              <ol>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Modi deleniti, molestias saepe dolorem.</li>
+                <li>Aspernatur eos vero distinctio?</li>
+              </ol>
+            </div>
+          </div>
+
+          <h5 class="mt-4">Kapcsolódó cikkek 1</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum rem suscipit aperiam laboriosam velit, eaque, voluptate maxime facilis eos nisi praesentium temporibus provident sint labore eum excepturi iste quis incidunt.
+            Magni assumenda, sit autem voluptate recusandae excepturi asperiores itaque modi suscipit odio quisquam odit reiciendis est veritatis omnis laborum officiis temporibus quibusdam tempore qui, obcaecati exercitationem veniam ipsum.
+          </p>
+        </aside>
+      </div>
+    </article>
+
+    <footer class="container-fluid text-center mt-5">
+      <p>Tóth Dániel István</p>
+    </footer>
+  </body>
 </html>
